@@ -1,0 +1,195 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navigation Bar  */
+
+.navbar {
+  padding: 1% 12%;
+}
+
+.km-main {
+  color: #dc4245;
+  font-family: "Pacifico", sans-serif;
+  font-size: 3em;
+}
+
+.nav-item {
+  padding: 0 3%;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #dc4245;
+}
+
+/* Top Section / Landing Page */
+
+#title {
+  background-color: #e5e5e5;
+}
+
+.container {
+  padding: 10% 0 18% 0;
+  text-align: center;
+}
+
+.charlie-with-cat {
+  padding: 3%;
+  text-align: center;
+}
+
+.km {
+  color: #dc4245;
+  font-family: "Pacifico", sans-serif;
+}
+
+.top-space {
+  margin: 5% 3%;
+}
+
+/* Testimonial Slideshow */
+
+#slideshow {
+  text-align: center;
+  padding: 10%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  filter: invert(100%);
+}
+
+.testi-pics {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  margin-bottom: 5%;
+}
+
+.testi-name {
+  color: #dc4245;
+}
+
+/* Features  */
+
+#features {
+  background-color: #e5e5e5;
+  padding: 5%;
+  text-align: center;
+}
+
+.features-tagline {
+  text-align: center;
+  padding: 10% 0 0 5%;
+}
+
+.features-about {
+  padding: 5%;
+}
+
+/* Press Pics */
+
+#press {
+  padding: 7%;
+  text-align: center;
+}
+
+.press-images {
+  padding: 3%;
+}
+
+/* Pricing Table */
+
+#pricing {
+  background-color: #e5e5e5;
+  text-align: center;
+}
+
+.pricing-header {
+  padding: 0 5% 0;
+  text-align: center;
+}
+
+.pricing-title {
+  font-weight: bold;
+  font-size: 3em;
+  padding: 3% 0 2%;
+}
+
+.pricing-grid {
+  padding: 8% 8%;
+}
+
+.card {
+  border: 1px solid #dc4245;
+}
+
+.card-deck {
+  margin-right: 0;
+}
+
+.pricing-link:hover {
+  text-decoration: none;
+}
+
+/* Call to Action Section */
+
+#cta {
+  text-align: center;
+  padding-top: 3%;
+}
+
+.cta-row {
+  padding: 5% 8% 8%;
+  margin-right: 0;
+  text-align: center;
+}
+
+.cta-btn {
+  margin: 5%;
+  padding: 3% 5%;
+}
+
+/* Footer Section */
+
+#footer {
+  background-color: #dc4245;
+  padding: 3% 4% 2%;
+  text-align: center;
+  color: white;
+}
+
+.icons {
+  margin: 2%;
+}
+
+.footer-link {
+  color: white;
+}
+
+.footer-link:hover {
+  color: #e5e5e5;
+}
+
+/* Media Query */
+
+@media (max-width: 520px) {
+  .km-main {
+    font-size: 2em;
+  }
+
+  .charlie-with-cat {
+    height: 75%;
+    width: 75%;
+  }
+}
+
+@media (max-width: 768px) {
+  #features {
+    padding: 2%;
+  }
+
+  .features-tagline {
+    padding: 5% 5%;
+  }
+}
