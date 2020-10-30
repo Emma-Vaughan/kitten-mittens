@@ -2,6 +2,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.row {
+  margin: 0;
+}
+
 /* Navigation Bar  */
 
 .navbar {
@@ -178,10 +182,10 @@ body {
     font-size: 2em;
   }
 
-  .charlie-with-cat {
+  /* .charlie-with-cat {
     height: 75%;
     width: 75%;
-  }
+  } */
 }
 
 @media (max-width: 768px) {
